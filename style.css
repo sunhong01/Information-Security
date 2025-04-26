@@ -1,0 +1,68 @@
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 전체 배경 이미지 */
+body {
+  background-image: url('image\ copy\ 5.png'); /* 🔁 이미지 파일 경로 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: blanchedalmond; /* 텍스트가 보이도록 흰색 */
+}
+
+/* 네비게이션 스타일 */
+header nav {
+  background-color: rgba(0, 0, 0, 0.7); /* 반투명 배경 */
+  padding: 15px 30px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #1abc9c;
+}
+
+/* 메인 히어로 섹션 */
+.hero {
+  height: calc(100vh - 60px); /* 네비게이션 높이 제외 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.5); /* 텍스트 배경 어둡게 */
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.team-one {
+  text-align: center;
+}
+
+.team {
+  text-align: center;
+}
